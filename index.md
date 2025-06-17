@@ -1,5 +1,5 @@
-Here you can say lots of fun things about your site.
+Hey! I'm Amartya Sinha, a Linux and DevOps Enthusiast.
 
-Maybe say a some things about yourself.
+I love exploring clouds, the networking which is supporting the cloud platform, and other stuff like that.
 
-Or maybe what you plan to blog about.
+PS: I'm just a learner and keep learning new things.
