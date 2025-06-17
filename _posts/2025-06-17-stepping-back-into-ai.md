@@ -14,6 +14,8 @@ Fast forward to that Llama Stack tech talk, and the contrast couldn't have been 
 
 The most mind-blowing moment came when I learned about deploying models. The days of manual loading and intricate setup scripts for deployment? They're just gone. With Llama Stack, it's almost as simple as using Docker. You can define your model and its environment in a concise `Modelfile`. Then, with just a simple command, the Llama Stack takes over, seamlessly getting your model up and running and exposing it via an endpoint. This is a monumental shift; it makes the transition between development and production environments incredibly smooth, which was a huge hurdle just a few years ago.
 
+![Image]({{ site.baseurl }}/assets/images/IMG_20250609_115916.png)
+
 
 ## Diving Deeper into Llama Stack's Capabilities
 

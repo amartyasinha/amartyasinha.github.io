@@ -1,4 +1,4 @@
-title: "Amartya Sinha's Blog"
+title: "Amartya's Blog"
 author: "Amartya Sinha"
 # description: "Some short description of your blog can go here." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
 
@@ -15,6 +15,7 @@ linkedin_username: "amartyasinha918"
 #youtube_username: username
 #googleplus_username: +username
 
+baseurl: /
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
