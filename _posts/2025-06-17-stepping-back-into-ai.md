@@ -1,4 +1,12 @@
-# Stepping Back into AI: The Llama Stack Blew My Mind
+---
+layout: post
+title: "Stepping Back into AI: The Llama Stack Blew My Mind"
+description: ""
+category:
+date: 2025-06-17
+tags: [AI, machine-learning, llama-stack, technology]
+comments: true
+---
 
 Not long ago, back in 2023 when I graduated, I was immersed in artificial intelligence, focusing on deep learning models during college. Honestly, after that, I kind of took my foot off the gas when it came to keeping up with the AI world. My focus shifted, and while I knew things were moving, I genuinely hadn't grasped just how fast until very recently.
 

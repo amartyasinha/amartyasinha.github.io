@@ -1,4 +1,12 @@
-# The struggle without GNU Tools on macOS is real
+---
+layout: post
+title: "The struggle without GNU Tools on macOS is real"
+description: ""
+category:
+date: 2026-04-28
+tags: [macOS, GNU, tools, development]
+comments: true
+---
 
 The only reason I prefer MacBooks over other laptops is the build quality, force touch trackpad, and power efficiency due to arm chips. But it comes with a major tradeoff: I'm tied to macOS instead of Linux distros (yes, I know about Asahi Linux, but that's another story). Though I don't hate macOS, in fact, I like a few native features such as Spaces (multiple desktop) and Spotlight search. But let's not forget the struggles we face on macOS due to the lack of GNU tools.
 
