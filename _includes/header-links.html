@@ -1,0 +1,32 @@
+<ul>
+	<li>
+		<a href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}">About</a><span>/</span>
+	</li>
+
+	{% if site.harmony.social.talks %}
+		<li>
+		<a href="{{ '/talks' | prepend: site.baseurl | prepend: site.url }}"> My Talks</a><span>/</span>
+		</li>
+	{% endif %}
+
+	<li>
+		<a href="{{ '/archive' | prepend: site.baseurl | prepend: site.url }}">Blog Archive</a><span>/</span>
+	</li>
+
+	{% if site.harmony.social.linkedin %}
+	<li>
+        <a title="{{ site.harmony.social.linkedin }} on LinkedIn"
+            href="https://www.linkedin.com/in/{{ site.harmony.social.linkedin }}"
+            > / LinkedIn</a>
+	</li>
+	{% endif %}
+
+	{% if site.harmony.social.github %}
+	<li>
+        <a title="{{ site.harmony.social.github }} on Github"
+            href="https://github.com/{{ site.harmony.social.github }}"
+            > / Github</a>
+	</li>
+	{% endif %}
+
+</ul>

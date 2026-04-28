@@ -1,54 +1,74 @@
-title: "amartyasinha"
-author: "Amartya Sinha"
-# description: "Some short description of your blog can go here." # This will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
-
-# Email / Social media user names used by the minima theme:
-# All of these are optional and can be removed or commented out
-email: "amartyasinha918@gmail.com"
-# twitter_username: "twitteruser"
-github_username: "amartyasinha"
-linkedin_username: "amartyasinha918"
-#facebook_username: username
-#flickr_username: username
-#instagram_username: username
-#pinterest_username: username
-#youtube_username: username
-#googleplus_username: +username
-
+# Base URL
 baseurl: /
 
-# Navigation configuration
-navigation:
-  github: amartyasinha
+# Site live URL
+url: https://amartyasinha.github.io
 
-# Header navigation pages
-header_pages:
-  - about.md
-  - talks.md
-  - archive.md
+# Localhost
+#url: http://127.0.0.1:4000
 
-#########################################################################################
-######### Nothing below needs to be changed (unless you know what you're doing) #########
-#########################################################################################
-theme: "minima"
+# Harmony theme configuration. Please change accordingly.
+harmony:
+  name: "amartyasinha"
+  # Little description about your site
+  meta_description:
+    Linux
+    DevOps
+    OpenStack
+    RedHat
+    Virtualization
+    Technology
+    Automation
+  basetheme: theme-base-01 # pre defined themes are darken, blue-water, redish.
+  author: # Author details
+    name: Amartya Sinha
+    email: amartyasinha918@gmail.com
+    url: https://amartyasinha.github.io
 
-rss: rss
+  # Google Analytics key, leave blank to ignore
+  google_analytics_key:
 
-kramdown:
-  syntax_highlighter_opts:
-    disable: true
-    
+  # Profile links, leave blank to ignore
+  social:
+    github: amartyasinha
+    linkedin: amartyasinha918
+    rss: feed.xml
+    talks: talks
+# Conversion / Build settings
+  show_disclaimer: true
+
+markdown: kramdown
+
+# This is how you put pygments config in jekyll 2.0 instead of pygments: true
+highlighter: rouge
+
+# Permalinks
+permalink: pretty
+
+exclude:
+  - CNAME
+  - Gemfile
+  - Rakefile
+  - README.md
+  - .gitignore
+  - .sass-cache
+  - Gemfile.lock
+  - backup
+
+# Sass conversion configs
+sass:
+    sass_dir: assets/css/_sass
+    style: :compressed
+
+# Add support for the feed talks
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+feed:
+  path: feed.xml
 
-titles_from_headings:
-  strip_title: true
-  collections: true
-
-defaults:
-  - scope:
-      path: ""
-      type: post
-    values:
-      tags: Other
+#Read time is based on the average reading speed of an adult
+#(roughly 200 WPM). We take the total word count of a post
+#and translate it into minutes. Then, we add 1 minute minimum.
+#
+#(word_count/200) minutes + 1 minute minimum

@@ -18,16 +18,16 @@ layout: default
             </span> |
             {% endif %}
             <span class="post-date">
-            {{ post.date | date: "%b %-d, %Y" }}
+            {{ post.date | date: "%b %-d, %Y" }} 
             </span>
             <span class="post-read">
-            {% if post.read > 0 %}
-            | ~{{ post.read }} min read
-            {% endif %}
+            {% assign words = post.content | number_of_words %}
+            {% assign read_time = words | divided_by: 200 | plus: 1 %}
+            | ~{{ read_time }} min read
             </span>
           </p>
                 <p>
-                    {{ post.excerpt }}
+                    {{ post.excerpt }}  
                 </p>
                 <p>
                     <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" title="{{ post.title}}">
