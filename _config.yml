@@ -32,6 +32,7 @@ harmony:
   social:
     github: amartyasinha
     linkedin: amartyasinha918
+    credly: amartyasinha
     rss: feed.xml
     talks: talks
 # Conversion / Build settings
@@ -69,6 +70,6 @@ feed:
 
 #Read time is based on the average reading speed of an adult
 #(roughly 200 WPM). We take the total word count of a post
-#and translate it into minutes. Then, we add 1 minute minimum.
+#and translate it into minutes. The +1 accounts for decimal loss.
 #
-#(word_count/200) minutes + 1 minute minimum
+#(word_count/200) + 1 minute
